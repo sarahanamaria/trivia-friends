@@ -1,0 +1,34 @@
+:host {
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  flex: 1 1 48%;
+  background-color: grey;
+  border-radius: 20px;
+
+  .is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .is-selected {
+    background-color: orange;
+  }
+
+  .is-correct {
+    background-color: green;
+  }
+
+  .is-wrong {
+    background-color: red;
+  }
+
+  .is-selected,
+  .is-correct,
+  .is-wrong {
+    border-radius: 20px;
+  }
+}
+

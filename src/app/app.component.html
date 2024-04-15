@@ -1,0 +1,23 @@
+<div class="background"></div>
+
+@if (allQuestionsData && currentQuestionState) {
+<app-counter [points]="currentPlayerPoints"
+             [status]="gameStatus">
+</app-counter>
+
+<app-question [question]="currentQuestionState.question"></app-question>
+
+<div class="answers-container">
+  <ng-container *ngFor="let answer of currentQuestionState.answers">
+    <app-answer
+      [answer]="answer"
+      [correctAnswer]="currentQuestionState.correctAnswer"
+      [isAnswerDisabled]="currentQuestionState.isAnswerDisabled === true"
+      (onAnswerSelection)="disableOtherAnswers()"
+      (onNewQuestionNeeded)="setNewQuestion()"
+      (onPointsUpdate)="setNewPoints($event)"
+    >
+    </app-answer>
+  </ng-container>
+</div>
+}

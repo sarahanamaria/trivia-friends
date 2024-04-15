@@ -1,0 +1,7 @@
+<div (click)="checkAnswer()"
+     [class.is-selected]="isSelected"
+     [class.is-correct]="isCorrect"
+     [class.is-wrong]="isWrong"
+     [class.is-disabled]="isAnswerDisabled">
+  {{ answer }}
+</div>

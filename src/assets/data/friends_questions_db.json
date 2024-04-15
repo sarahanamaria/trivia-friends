@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is Joey's favorite food?",
+    "answers": ["Sandwiches", "Pizza", "Apples", "Salad"],
+    "correctAnswer": "Sandwiches"
+  },
+  {
+    "question": "What does Ross famously shout when carrying his new couch up the stairs?",
+    "answers": ["Move!", "Shift!", "Pivot!", "Stop!"],
+    "correctAnswer": "Pivot!"
+  },
+  {
+    "question": "What is the name of Joey’s stuffed penguin?",
+    "answers": ["Waddles", "Huggsy", "Penguiny", "Mr. Flippers"],
+    "correctAnswer": "Huggsy"
+  },
+  {
+    "question": "Which character famously said, 'We were on a break'?",
+    "answers": ["Joey", "Chandler", "Ross", "Monica"],
+    "correctAnswer": "Ross"
+  },
+  {
+    "question": "What is the name of Chandler's father's Las Vegas all-male burlesque?",
+    "answers": ["Viva Las Gaygas", "It's Raining Men", "Men at Work", "The Queens of Vegas"],
+    "correctAnswer": "Viva Las Gaygas"
+  },
+  {
+    "question": "What fake name does Phoebe use when she wants to remain anonymous?",
+    "answers": ["Monica Bing", "Regina Phalange", "Elaine Benes", "Anita Bath"],
+    "correctAnswer": "Regina Phalange"
+  },
+  {
+    "question": "What does Chandler's co-worker Bob think his name is?",
+    "answers": ["Toby", "Chandy", "Bing", "Muriel"],
+    "correctAnswer": "Toby"
+  },
+  {
+    "question": "Which character accidentally threw a woman's wooden leg into a fire?",
+    "answers": ["Ross", "Joey", "Chandler", "Richard"],
+    "correctAnswer": "Joey"
+  },
+  {
+    "question": "In which city did Monica and Chandler first get together?",
+    "answers": ["New York", "Las Vegas", "London", "Paris"],
+    "correctAnswer": "London"
+  },
+  {
+    "question": "What is the title of Monica's first restaurant as head chef?",
+    "answers": ["Alessandro's", "Chez Monica", "Monica's Place", "Downtown Dining"],
+    "correctAnswer": "Alessandro's"
+  }
+]
